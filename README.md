@@ -1,13 +1,5 @@
-# pipelines-rust
-
-<img width="1391" height="293" alt="image" src="https://github.com/user-attachments/assets/2019ed0f-10d1-4257-945a-e7c58a51c3c5" />
-
-
 # 🦀 pipelines-rust
 
-Учебный проект: **CI-пайплайн на GitHub Actions** для Rust-приложения.
-
----
 
 ## 📖 О проекте
 
@@ -81,7 +73,8 @@ docker run --rm my-rust-app:latest
 ```
 Hello from Rust in Docker! 🦀
 ```
-<img width="574" height="80" alt="image" src="https://github.com/user-attachments/assets/d09e8a84-5789-4fc6-8bc3-57f122404053" />
+<img width="1583" height="994" alt="photo_5413821073230340030_w" src="https://github.com/user-attachments/assets/4c83ff0d-1ee3-492c-8840-5db0cf6113b9" />
+
 
 Зайти внутрь контейнера:
 
@@ -115,7 +108,6 @@ cargo test
 - **rustfmt** — форматирование
 - **clippy** — линтинг
 - **Docker** — multi-stage сборка (rust → debian-slim)
-- **GitHub Actions** — CI
 
 ---
 
