@@ -106,9 +106,6 @@ cargo test
 - **rustfmt** — форматирование
 - **clippy** — линтинг
 - **Docker** — multi-stage сборка (rust → debian-slim)
-- **GitHub Actions** — CI
-
----
 
 ## 📄 Лицензия
 
