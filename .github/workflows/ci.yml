@@ -1,0 +1,10 @@
+name: Rust CI
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - run: rustc main.rs -o app
+      - run: ./app
